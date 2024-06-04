@@ -1,0 +1,17 @@
+project/
+│
+├── fetch_resumes.py
+├── preprocess_resumes.py
+├── generate_embeddings.py
+├── init_vector_db.py
+├── fine_tune_embeddings.py
+│
+├── fastapi_app/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+└── streamlit_app/
+    ├── streamlit_app.py
+    ├── requirements.txt
+    └── Dockerfile
